@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TLH Settings</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="home.js"></script>
+</head>
+
+<body>
+  <h1> The Time Lord's Handbook</h1>
+  <ul>
+    <li id="top"><a href="index.php">Sign In</a></li>
+    <li><a href="signUp.php">Sign Up</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a id="navSelected" href="settings.html">Settings</a></li>
+  </ul>
+   <p> <a href= 'logout.php'>Log Out</a></p>
+    <br>
+
+  <br><br>
+    <label for="themes">Choose a theme:</label>
+    <select name="themes" id="themes">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+      <option value="retro">Retro</option>
+    </select>
+
+    <script>
+      $(document).ready(function() {
+        $("#themes").click(function() {
+          var value = document.getElementById("themes").value;
+          setColor(value);
+          setCookie("theme", value);
+        });
+      });
+
+      function submitTheme(){
+        var value = document.getElementById("themes").value;
+        setColor(value);
+        setCookie("theme", value);
+      }
+    </script>
+    <br>
+    <button onclick="submitTheme()">Confirm Theme</button>
+    
+    <br><br><br>
+    <button onclick="deleteCookies()">Clear Cookies</button>
+
+</body>
+
+  
+
+  
+
+</html>

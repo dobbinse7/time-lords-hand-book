@@ -1,0 +1,250 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #312b26;
+  text-align: center;
+}
+
+h1,h2, h5{
+  font-family: fantasy;
+}
+
+label{
+  font-size: 15px;
+  font-family: fantasy;
+
+}
+
+#signIn{
+  margin: 0; padding: 0;
+  position: right; 
+}
+
+#signInForm {
+     border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 2px solid #7f7f7f; /* Add a 2px solid bottom border */
+      background-color: #312b26;
+      font-family: fantasy;
+    
+}
+
+.signUpForm {
+     border: none;
+    outline: none;
+    font-size: 24px;
+    padding: 15px;
+    padding-left: none;
+    border-bottom: 2px solid #7f7f7f; /* Add a 2px solid bottom border */
+      background-color: #312b26;
+      font-family: fantasy;
+}
+
+p{
+  vertical-align: middle;
+  font-size: 15px;
+  font-family: fantasy;
+  vertical-align: middle
+  
+}
+
+#signUpButton{
+  font-family: fantasy;
+ vertical-align: middle
+  
+}
+
+p, h5, h1, h2, label, h3{
+  color:lightgray;
+}
+
+#members{
+  background-color: #312b26;
+  color: lightgray;
+}
+#aboutUs{
+  width: 70%;
+  margin: auto;
+}
+
+ul {	
+  				margin: 0px;
+  				padding: 0px;
+          list-style-type: none;
+  				background-color: lightgray;
+          overflow: hidden;
+          font-family: fantasy;
+}
+li a {
+  float: left;
+}
+li a {
+  				display: block;
+  				color: #312b26;
+  				padding: 14px 16px;
+          text-align: center;
+  				text-decoration: none;
+          font-family: fantasy;
+}
+li a:hover {
+  background-color: #312b26;
+  color: lightgray;
+}
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #312b26;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: fantasy;
+}
+
+.month li {
+  color:lightgray;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+  font-family: fantasy;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+  font-family: fantasy;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #lightgray;
+  font-family: fantasy;
+  
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #312b26;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  height: 15%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: lightgray;
+  font-family: fantasy;
+  cursor: pointer;
+}
+
+.days li .active {
+  padding: 5px;
+  background: lightgray;
+  color: #555555 !important
+}
+
+#month{
+    text-align: center;
+    border-style: solid;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+table{
+    width: 100%;
+    border-style:solid;
+    border-collapse: collapse!important;
+}
+
+td{
+  text-align: right;
+  font-weight: bold;
+  border-style: solid;
+  border-width: .5px;
+  height: 7em;
+  color: #eee;
+}
+th{
+  color: #ddd;
+}
+
+#leftBtn{
+    float: left;
+}
+
+#rightBtn{
+    text-align: right;
+    float: right;
+}
+
+#cal-menu:hover{
+    background-color: lightgrey;
+}
+
+#cal-menu{
+    border-collapse: collapse!important;
+}
+
+#newEvent {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
+#event-form{
+    display: none;
+    background-color: #777777;
+  color: whitesmoke;
+    margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  margin-top: 5%;
+  margin-left: 20%;
+  position: absolute;
+  text-align: center;
+  
+}
+
+#date{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+
+#navSelected{
+  background-color: gray;
+}
+#navSelected:hover{
+  background-color: #312b26;
+  color: lightgray;
+}
